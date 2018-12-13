@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root 'code_katas#index'
-
-  resources :code_katas
+  get 'babysitter_katas/index'
+  post 'babysitter_katas/submit_form'
 end
