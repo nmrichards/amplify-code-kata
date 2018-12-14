@@ -1,25 +1,15 @@
-# README
+# amplify-code-katas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a couple of code katas for amplify interview
 
-Things you may want to cover:
+## Running Locally
 
-* Ruby version
+Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io)
 
-* System dependencies
+```sh
+git clone https://github.com/nmrichards/amplify-code-kata # or clone your own fork
+cd amplify-code-kata
+bundle install
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# amplify-code-kata
+Your app should now be running on [localhost:3000](http://localhost:3000/).

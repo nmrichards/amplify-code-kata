@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <h1>Closest To Zero Kata</h1>
+      <p>Type a list of numbers delimited by spaces</p>
+      <%= form_tag closest_to_zero_katas_submit_form_path, method: :post, class:'col-md-4', remote: true do %>
+        <div class="form-group">
+          <%= label_tag "Numbers" %>
+          <%= text_field_tag :numbers, nil, class:'form-control', placeholder:'Numbers' %>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      <% end %>
+    </div>
+    <div class="row col-md-5 align-items-center">
+      <h3>The closest number to zero is: <span id="closest-number-id"></span></h3>
+    </div>
+  </div>
+</div>
