@@ -10,6 +10,7 @@ Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.i
 git clone https://github.com/nmrichards/amplify-code-kata # or clone your own fork
 cd amplify-code-kata
 bundle install
+rails s
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
