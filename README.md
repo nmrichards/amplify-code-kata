@@ -22,3 +22,5 @@ bundle install
 rake test
 rake test:system
 ```
+
+### See live at http://amplify-code-kata.herokuapp.com
