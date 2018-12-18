@@ -14,3 +14,11 @@ rails s
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+## Running Tests
+```sh
+cd amplify-code-kata
+bundle install
+rake test
+rake test:system
+```
